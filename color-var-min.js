@@ -1,0 +1,1 @@
+function colorvariant(o){void 0===o.colors?colors=["red","yellow","pink","rgba(87, 255, 0,0.1)","hotpink","#C5E1F4"]:colors=o.colors;for(var l=document.querySelectorAll(o.selector),r=o.css_property,c=0;c<colors.length;)l[c].style[r]=colors[c],c++;colors.length;for(var e=colors.length,s=0;e<l.length;)l[e].style[r]=colors[s],colors.length-1==s?s=0:s++,e++}
